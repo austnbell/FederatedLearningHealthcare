@@ -1,0 +1,22 @@
+aggregator:
+  ip: 127.0.0.1
+  port: 5000
+connection:
+  info:
+    ip: 127.0.0.1
+    port: 8086
+  name: FlaskConnection
+  path: ffl_framework.connection.flask_connection
+  synch: false
+data:
+  info:
+    txt_file: Party1/SDC_Party1.csv
+  name: HospitalDataHandler
+  path: hospital_data_handler
+model:
+  name: DTFFLModel
+  path: ffl_framework.model.dt_ffl_model
+  spec: Party1/configs/dt_model_spec.pickle
+protocol_handler:
+  name: ProtocolHandlerPlainFL
+  path: ffl_framework.party.protocol_handler_plain_fl

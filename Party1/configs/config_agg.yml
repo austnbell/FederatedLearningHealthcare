@@ -1,0 +1,24 @@
+connection:
+  info:
+    ip: 127.0.0.1
+    port: 5000
+  name: FlaskConnection
+  path: ffl_framework.connection.flask_connection
+data:
+  info:
+    txt_file: Aggregator/Provider_Train.csv
+  name: HospitalDataHandler
+  path: hospital_data_handler
+fusion:
+  name: DecisionTreeFusionHandler
+  path: ffl_framework.aggregator.fusion.dt_fusion_handler
+hyperparams:
+  global:
+    max_depth: 3
+model:
+  name: DTFFLModel
+  path: ffl_framework.model.dt_ffl_model
+  spec: Aggregator/configs/dt_model_spec.pickle
+protocol_handler:
+  name: ProtoHandler
+  path: ffl_framework.aggregator.protohandler.proto_handler
