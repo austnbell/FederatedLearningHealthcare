@@ -5,8 +5,8 @@ Applied project investigating Federated Learning in the Healthcare industry. For
 Other projects on my work in federated learning:
 * Introduction to federated learning:
 * Text Summarization and Federated Learning
- * Blog
- * [Code](https://github.com/austnbell/TextSummarizationFederatedLearning)
+  * Blog
+  * [Code](https://github.com/austnbell/TextSummarizationFederatedLearning)
 
 ## Summary
 Patient and data privacy is a core tenant of working with healthcare data, which can make data sharing very difficult. This causes data to be siloed across multiple data owners, each making their own AI algorithms.  Federated learning provides a framework that enables collaborative without sharing data or violating patient privacy.
