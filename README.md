@@ -17,7 +17,7 @@ The selected experiment is simple because the project doubles as a sort of learn
 I simulate a real world scenario where three healthcare institutions wish to participate in a shared data consortium to enable collaborative training for their hospital readmission models. 
 
 1. Data Prep
-  * extract [UCI Diabetes Hospital Readmission data](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008#)
+  * Extract [UCI Diabetes Hospital Readmission data](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008#)
   * Split into various parties: Single provider and Shared Data Consortium
     * Single provider is focused on diseases related to the circulatory systems (30% of the data)
       * test data is derived from single provider's data
